@@ -7,25 +7,24 @@
  */
 int main(void)
 {
-	int ones;
-	int tens;
+	int c, i;
 
-	for (tens = '0'; tens <= '9'; tens++) /*increment tens*/
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (ones = (tens + 1); ones <= '9'; ones++) /*one's ten+1*/
+		for (i = '0'; i <= '9'; i++)
 		{
-			putchar(tens);
-			putchar(ones);
-
-			if (tens != '8' || ones != '9') /*print commas*
+			if (c < i)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(c);
+				putchar(i);
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
-	
 	}
-
 	putchar('\n');
 
 	return (0);
