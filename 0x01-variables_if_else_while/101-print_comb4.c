@@ -7,22 +7,23 @@
 
 int main(void)
 {
-	int x, y, z;
-	for (x = 0; x < 10; x++)
+	int c, i, k;
+
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (z = 0; z < 10; z++)
+		for (i = '0'; i <= '9'; i++)
 		{
-			for (z = 0; z < 10; z++)
+			for (k = '0'; k <= '9'; k++)
 			{
-				if (y > x && z > y)
+				if (c < i && i < k)
 				{
-					putchar(x + '0');
-					putchar(y + '0');
-					putchar(z + '0');
-					if (x != 7 || y != 8 || z != 9)
-					{	
-						putchar (',');
-						putchar (' ');
+					putchar(c);
+					putchar(i);
+					putchar(k);
+					if (c != '7')
+					{
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
