@@ -7,28 +7,27 @@
 
 int main(void)
 {
-	int one;
-	int ten;
-	int hundred;
-
-	for (hundred = '0'; hundred <= '9'; hundred++) /*hundreds place*/
+	int x, y, z;
+	for (x = 0; x < 10; x++)
 	{
-		for (ten = (hundred + 1); ten <= '9'; ten++) /*tens=100s+1*/
+		for (z = 0; z < 10; z++)
 		{
-			for (one = (ten + 1); one <= '9'; one++) /*ones*/
+			for (z = 0; z < 10; z++)
 			{
-				putchar(hundred);
-				putchar(ten);
-				putchar(one);
-				if (hundred != '7' || ten != '8' || one != '9')
+				if (y > x && z > y)
 				{
-					putchar(',');
-					putchar('');
+					putchar(x + '0');
+					putchar(y + '0');
+					putchar(z + '0');
+					if (x != 7 || y != 8 || z != 9)
+					{	
+						putchar (',');
+						putchar (' ');
+					}
 				}
 			}
 		}
 	}
 	putchar('\n');
-
 	return (0);
-}	
+}
