@@ -2,7 +2,7 @@
 
 /**
  * main - print alpha reversed using putchar
- * main - print alpha reversed using putchar
+ * Return: Always (Success)
  */
 
 int main(void)
