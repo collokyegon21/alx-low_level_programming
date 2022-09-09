@@ -6,17 +6,16 @@
  */
 int main(viod)
 {
-	int n = '0';
+	int c;
 
-	while (n <= '9')
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar(n);
-		if (n != '9')
+		putchar(c);
+		if (c != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		n++;
 	}
 	putchar('\n');
 
