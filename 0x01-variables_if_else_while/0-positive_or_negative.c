@@ -1,8 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-/* main - generating number positive, zero or negative. */
-/* Return: Always 0 */
+#include <stdlib.h>
+
+/**
+ * main - generating number positive, zero or negative.
+ * Description: this program will assign a random no.
+ * Return: Always 0
+ */
+
 int main(void)
 {
 	int n;
