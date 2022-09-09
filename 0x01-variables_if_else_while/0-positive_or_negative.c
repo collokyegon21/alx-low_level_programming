@@ -7,7 +7,10 @@
  *                                                                                                                             
  *Return: Always 0                                                                                                               */  
 {
-	int n ;
+int n ;
+
+
+
 	srand(time(0));
 	if (n > 0)
 	{
