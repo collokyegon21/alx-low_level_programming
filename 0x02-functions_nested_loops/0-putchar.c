@@ -2,7 +2,10 @@
 
 /**
  * main - Entry Point
- * Return: 0 nothing, return void
+ *
+ * Description: prints _putchar
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
