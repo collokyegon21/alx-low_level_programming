@@ -1,12 +1,12 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_times_table - prints the n times table, starting with 0
+ * main - Print the sum of all multiples of 3 or 5 up to 102
  *
- * @n: number of the times table
+ * Always (Success)
  */
 
-void print_times_table(int n)
+int main(void)
 {
 	int i, z = 0;
 
