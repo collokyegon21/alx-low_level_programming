@@ -3,11 +3,10 @@
 #include "main.h"
 
 /**
- * mul - function to multiply to int variables
- * @a: variable a
- * @a: variable b
- *
- * Return: a * b
+ * mul - multiplies two numbers
+ * @a: first number
+ * @b: second number
+ * Return: returns result
  */
 
 int mul(int a, int b)
