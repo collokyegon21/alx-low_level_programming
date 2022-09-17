@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * print_numbers - this function prints numbers 0 - 9
+ * print_numbers - print  0 - 9
  *
- * @i: variable i
- * Return: 0
+ * Return: void
  */
 
 void print_numbers(void)

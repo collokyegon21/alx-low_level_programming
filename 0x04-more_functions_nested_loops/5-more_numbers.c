@@ -1,13 +1,9 @@
 #include "main.h"
 
 /**
- * more_numbers - print numbers 0 - 14 10 times
+ * more_numbers - prints 0 - 14
  *
- * @i: i variable
- * @x: x variable
- *
- * Return: always 0
- *
+ * Return: void
  */
 
 void more_numbers(void)

@@ -2,9 +2,7 @@
 
 /**
  * print_line - print a straight line on terminal
- *
- * @x: variable x
- * @n: variable n
+ * @n: variable
  *
  * Return : 0 always
  */
