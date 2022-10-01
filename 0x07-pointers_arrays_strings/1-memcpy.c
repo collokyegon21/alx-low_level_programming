@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* _memcpy - copies function
+* _memcpy -fills memory with another buffer
 * @dest: source string
 * @src: string for filling
 * @n: length of buffer
