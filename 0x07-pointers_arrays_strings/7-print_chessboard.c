@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
-* print_chessboard - prints the chessboard
-* @a: two dimensional array to print
+* *print_chessboard - prints the chessboard
+* @a: board
+* Return: void
 */
 
 void print_chessboard(char (*a)[8])
