@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /*
-* _sqrt_recursion - returns natural square of a root number
-*
+* _sqrt_recursion - finds natural square root
 * @n: number
 * Return: int
 */
@@ -13,7 +12,7 @@ int _sqrt_recursion(int n)
 	int square = 2;
 
 	if (n < 0)
-		return (-1)
+		return (-1);
 	else if (n == 0 || n == 1)
 		return (n);
 	return (is_sqrt(n, square));
