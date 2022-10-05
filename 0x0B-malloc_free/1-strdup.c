@@ -23,4 +23,6 @@ char *_strdup(char *str)
 		p[i++] = *str++;
 	p[i] = '\0';
 	return (p);
+	free(p);
+	return (0);
 }
