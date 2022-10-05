@@ -24,19 +24,3 @@ char *_strdup(char *str)
 	p[i] = '\0';
 	return (p);
 }
-
-/**
-* strlen - prints length of a string
-* @s: pointer to the string
-* Return: 0 or 1
-*/
-
-int strlen(char *s)
-{
-	int i;
-
-	i = 0;
-	while (*s++)
-		i++;
-	return (i);
-}
