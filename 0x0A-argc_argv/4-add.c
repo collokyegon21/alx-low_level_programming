@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
 * main - adds positive number
@@ -12,7 +13,9 @@
 
 int main(int argc, char *argv[])
 {
-	int i, int j, sum = 0;
+	int i;
+	int j;
+	int sum = 0;
 
 	for (i = 1; i < argc; i++)
 	{
