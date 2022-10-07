@@ -27,7 +27,6 @@ int numberlen(char *str)
 	return (b);
 }
 
-
 /**
 * **strtow - splits a string into words
 * @str: string to print
@@ -39,7 +38,7 @@ char **strtow(char *str)
 	char **p, *ptr;
 	int words = 0, b = 0, c = 0, len = 0;
 
-	if (str == NULL || str == "")
+	if (str == NULL || *str == 0)
 		return (NULL);
 	words = numberlen(str);
 	if (words == 0)
@@ -62,7 +61,7 @@ char **strtow(char *str)
 			p[b] = malloc((len + 1) * sizeof(char));
 			if (p[b] == 0)
 			{
-				free(p, b);
+				free(p);
 				return (NULL);
 			}
 			while (*ptr != ' ' && *ptr != '\0')
