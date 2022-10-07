@@ -36,4 +36,5 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	if (ptrnew == NULL)
 		return (0);
 	return (ptrnew);
+	free(ptr)
 }
