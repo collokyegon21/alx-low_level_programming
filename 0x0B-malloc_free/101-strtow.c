@@ -55,8 +55,8 @@ char **strtow(char *str)
 			ptr = str;
 			for (; *str != ' ' && *str != '\0';)
 			{
-					len++;
-					str++;
+				len++;
+				str++;
 			}
 			p[b] = malloc((len + 1) * sizeof(char));
 			if (p[b] == 0)
@@ -71,7 +71,7 @@ char **strtow(char *str)
 				c++;
 			}
 			p[b][c] = '\0';
-			b++; c = 0; len = 0; str++;
+			b++;
 		}
 	}
 	return (p);
