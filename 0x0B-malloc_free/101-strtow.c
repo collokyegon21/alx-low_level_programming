@@ -71,7 +71,7 @@ char **strtow(char *str)
 				c++;
 			}
 			p[b][c] = '\0';
-			b++;
+			b++; c = 0; len = 0; str++;
 		}
 	}
 	return (p);
