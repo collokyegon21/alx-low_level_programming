@@ -12,7 +12,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	char *s = calloc(size_t, sizeof(char));
+	char *s = malloc(s1_len + s2_len * sizeof(char));
 	int i = 0;
 	int s1_len = strlen(s1);
 	int s2_len = strlen(s2);
