@@ -5,23 +5,23 @@
 #include <stdio.h>
 
 /**
+* dog_t - Typedef for struct dog
+*/
+
+typedef struct dog dog_t;
+
+/**
 * struct dog - structure of the dog
 * @name: string character of the dog
 * @age:integer
 * @owner:string character
 */
 
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 }
-
-/**
-* dog_t - Typedef for struct dog
-*/
-
-/* typedef struct dog dog_t; */
 
 #endif /* DOG_H */
