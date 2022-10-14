@@ -2,6 +2,7 @@
 
 /**
 * array_iterator - executes function given as parameters
+* @array: the array
 * @size: size of the array
 * @action: pointer to the action needed to use
 */
